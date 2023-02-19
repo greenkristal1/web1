@@ -37,3 +37,5 @@ function sayHi(who) {
 let sayHiDeferred = defer(sayHi, 2000);
 alert(sayHiDeferred);
 sayHiDeferred("John"); // выводит "Hello, John" через 2 секунды
+
+alert("Hey Man");
